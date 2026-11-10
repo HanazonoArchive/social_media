@@ -40,8 +40,8 @@ class _ProfileViewState extends State<ProfileView> {
     setState(() {
       comments.add(
         UserComment(
-          commenterImg: 'assets/user5.jpg', 
-          commenterName: 'Neil Robert Morales', 
+          commenterImg: userData.myUserAccount.img, 
+          commenterName: 'Jay Mark V. Agsoy', 
           commentTime: 'Just now',
           commentContent: commentController.text.trim(),
         ),
